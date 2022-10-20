@@ -1,0 +1,141 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gaurav.singh\\source\\repos\\CQRSUsingMediatr\\Gaurav's Project\\Gaurav's Project.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gaurav.singh\\source\\repos\\CQRSUsingMediatr\\DemoLibrary\\DemoLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gaurav.singh\\source\\repos\\CQRSUsingMediatr\\DemoLibrary\\DemoLibrary.csproj",
+        "projectName": "DemoLibrary",
+        "projectPath": "C:\\Users\\gaurav.singh\\source\\repos\\CQRSUsingMediatr\\DemoLibrary\\DemoLibrary.csproj",
+        "packagesPath": "C:\\Users\\gaurav.singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gaurav.singh\\source\\repos\\CQRSUsingMediatr\\DemoLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gaurav.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gaurav.singh\\source\\repos\\CQRSUsingMediatr\\Gaurav's Project\\Gaurav's Project.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gaurav.singh\\source\\repos\\CQRSUsingMediatr\\Gaurav's Project\\Gaurav's Project.csproj",
+        "projectName": "Gauravs Project",
+        "projectPath": "C:\\Users\\gaurav.singh\\source\\repos\\CQRSUsingMediatr\\Gaurav's Project\\Gaurav's Project.csproj",
+        "packagesPath": "C:\\Users\\gaurav.singh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gaurav.singh\\source\\repos\\CQRSUsingMediatr\\Gaurav's Project\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gaurav.singh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\gaurav.singh\\source\\repos\\CQRSUsingMediatr\\DemoLibrary\\DemoLibrary.csproj": {
+                "projectPath": "C:\\Users\\gaurav.singh\\source\\repos\\CQRSUsingMediatr\\DemoLibrary\\DemoLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
